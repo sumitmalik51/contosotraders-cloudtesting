@@ -721,7 +721,7 @@ resource productimagesstgacc 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   }
   kind: 'StorageV2'
   properties: {
-    allowBlobPublicAccess: 'true'
+    allowBlobPublicAccess: true
   }
   // blob service
   resource productimagesstgacc_blobsvc 'blobServices' = {
@@ -760,7 +760,7 @@ resource uistgacc 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   }
   kind: 'StorageV2'
   properties: {
-    allowBlobPublicAccess: 'true'
+    allowBlobPublicAccess: true
   }
   // blob service
   resource uistgacc_blobsvc 'blobServices' = {
@@ -910,7 +910,7 @@ resource imageclassifierstgacc 'Microsoft.Storage/storageAccounts@2022-09-01' = 
   }
   kind: 'StorageV2'
   properties: {
-    allowBlobPublicAccess: 'true'
+    allowBlobPublicAccess: true
   }
 
   // blob service
